@@ -8,11 +8,11 @@
 
 
 # Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
-path: .././datasets/bosch  # dataset root dir
+path: /content/drive/MyDrive/datasets/bosch  # dataset root dir
 train: train.txt  # train images (relative to 'path') 128 images
 val:  test.txt # val images (relative to 'path') 128 images
 test:  # test images (optional)
 
 # Classes
-nc: 12 # number of classes
-names: ['RedLeft', 'Red', 'RedRight', 'GreenLeft', 'Green', 'GreenRight', 'Yellow', 'off',  "RedStraight",'GreenStraight','GreenStraightRight','RedStraightLeft']  # class names
+nc: 8 # number of classes
+names: ['RedLeft', 'Red', 'RedRight', 'GreenLeft', 'Green', 'GreenRight', 'Yellow', 'off']  # class names
