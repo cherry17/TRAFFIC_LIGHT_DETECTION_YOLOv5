@@ -14,5 +14,5 @@ val:  test.txt # val images (relative to 'path') 128 images
 test:  # test images (optional)
 
 # Classes
-nc: 8 # number of classes
-names: ['RedLeft', 'Red', 'RedRight', 'GreenLeft', 'Green', 'GreenRight', 'Yellow', 'off']  # class names
+nc: 12 # number of classes
+names: ['RedLeft', 'Red', 'RedRight', 'GreenLeft', 'Green', 'GreenRight', 'Yellow', 'off', "RedStraight", 'RedStraightLeft', 'GreenStraight','GreenStraightRight']  # class names
